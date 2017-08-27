@@ -1,10 +1,10 @@
 # Google credentials and configuration
 google_client_id:      YOUR_CLIENT_ID
 google_client_secret:  YOUR_CLIENT_SECRET
-google_project_id:     YOUR_PROJECT_ID
+google_project_id:     autocomplete-17802
 
 # options are "mysql", "postgres", "mongodb", or "datastore"
-bookshelf_backend: mysql
+bookshelf_backend: datastore
 
 # configure CloudSQL for MySQL or PostgreSQL backend
 cloudsql_connection_name: INSTANCE_CONNECTION_NAME
